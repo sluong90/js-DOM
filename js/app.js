@@ -20,6 +20,7 @@ position2.innerHTML = 'Project Manager';
 Find the div with the id of "alias3" and replace the n/a with the following:
 
 Concatenation*/
+alias3.innerHTML = 'Concatenation';
 
 
 
@@ -27,6 +28,8 @@ Concatenation*/
 /*4. Prince
 
 Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.*/
+var profileBox = document.getElementsByClassName('profile');
+profileBox[0].innerHTML = 'There’s so much work to do, Love yourself';
 
 
 
