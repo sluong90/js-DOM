@@ -52,6 +52,10 @@ aliasBox[2].innerHTML = 'Nick Fury';
 Create a div element and give it an id of "name7". Inside this div element, give it the contents of "Peter Griffin".
 
 Append this div element to the nameParent div*/
+var nameBox = document.createElement('div');
+nameBox.id = 'name7';
+nameBox.innerHTML = 'Peter Griffin';
+nameParent.appendChild(nameBox);
 
 
  
@@ -60,6 +64,10 @@ Append this div element to the nameParent div*/
 Create a div element give it an id of "alias8". Inside this div element, give it the contents of "Old Man Riverwalk".
 
 Append this div element to the aliasParent div.*/
+var nameBox1 = document.createElement('div');
+nameBox1.id = 'alias8';
+nameBox1.innerHTML = 'Old Man Riverwalk';
+aliasParent.appendChild(nameBox1);
 
 
 
