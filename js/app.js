@@ -36,12 +36,14 @@ profileBox[0].innerHTML = 'There’s so much work to do, Love yourself';
 /*5. Bruce Lee
 
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
-
+profileBox[1].innerHTML = 'Do not pray for an easy life, pray for the strength to endure a difficult one.';
 
 
 /*6. Samuel L Jackson
 
 Find the div with the class name of "alias" and replace the n/a with your favorite character that Sammy portrayed.*/
+var aliasBox = document.getElementsByClassName('alias');
+aliasBox[2].innerHTML = 'Nick Fury';
 
 
 
